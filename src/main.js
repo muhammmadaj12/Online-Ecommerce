@@ -17,6 +17,8 @@ import { registerPlugins } from "@/plugins";
 const app = createApp(App);
 
 // Use Vuex store
+// app.use(store);
+
 app.use(store);
 
 registerPlugins(app);
