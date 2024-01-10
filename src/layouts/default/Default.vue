@@ -3,12 +3,12 @@
 
     <default-view />
     <Footer />
-
   </v-app>
 </template>
 
 <script setup>
-import DefaultView from './View.vue'
+
+import DefaultView from './View.vue';
 import Footer from '@/components/Footer.vue';
 
 </script>
