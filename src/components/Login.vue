@@ -29,7 +29,7 @@ export default {
         email: this.email,
         password: this.password,
       };
-      axios.post('http://m-abdullahtech.infinityfreeapp.com/public/api/login', formData)
+      axios.post('http://127.0.0.1:8000/api/login', formData)
         .then(response => {
           if (response) {
             this.check = false;
